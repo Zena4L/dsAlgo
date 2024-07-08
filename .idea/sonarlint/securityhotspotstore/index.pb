@@ -1,0 +1,23 @@
+
+S
+#src/main/java/org/clement/Main.java,d\1\d16602450f1702696cd92334cbd47a74ea151fe1
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+]
+-recursion/src/main/java/org/clement/Main.java,b\0\b0bb3ea898a6218721caf46eebe4b8c3491162a7
+A
+recursion/pom.xml,c\5\c52783caa3702b0b7adabfa969d53e627a76e51e
+^
+.recursion/src/main/java/org/clement/Power.java,c\8\c88d8cab5fe26236da0e945822993da4aeb37175
+b
+2recursion/src/main/java/org/clement/Fibonacci.java,1\2\1226941990035a250cefbbeddee7664426edd953
+g
+7recursion/src/main/java/org/clement/FirstOccurance.java,f\0\f0b6cea47d07977da5fa85f5aa99f4351e0a79dd
+f
+6recursion/src/main/java/org/clement/LastOccurance.java,a\9\a9b6e3637e56150cadafb5c68e137462004ed457
+`
+0recursion/src/main/java/org/clement/Pattern.java,3\6\362e295fcd3eb07626fb00c1da4696f39819761a
+b
+2recursion/src/main/java/org/clement/MaxNumber.java,5\e\5e40b02b1f8b47ed3544d8aa56c3ea09532eb326
