@@ -39,3 +39,5 @@ i
 9searching/src/main/java/org/clement/InterestingArray.java,9\4\94a57b993609199a49609f386b2f28b33479f8e7
 f
 6searching/src/main/java/org/clement/SumDifference.java,5\6\56f0e3ea6ceaa190f2dfabf6d19e14de1c174217
+f
+6searching/src/main/java/org/clement/MajorityVotes.java,e\4\e427ccef55afbb96c00ec408a38e6ab467e0fdaa
