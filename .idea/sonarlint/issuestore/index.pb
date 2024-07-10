@@ -37,3 +37,5 @@ h
 8searching/src/main/java/org/clement/SunlightProblem.java,e\8\e80f563adbbf6b2c16213e88690170abb9518a70
 i
 9searching/src/main/java/org/clement/InterestingArray.java,9\4\94a57b993609199a49609f386b2f28b33479f8e7
+f
+6searching/src/main/java/org/clement/SumDifference.java,5\6\56f0e3ea6ceaa190f2dfabf6d19e14de1c174217
