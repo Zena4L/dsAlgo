@@ -8,6 +8,7 @@
 - [ASYMPTOTIC NOTATION](#asymptotic-notation)
 
 2. [RECURSION](#recursion)
+3. [BINARY SEARCH](#binary-search)
 
 ## ANALYSIS OF ALGORITHM
 
@@ -62,5 +63,38 @@
 > - _Base Condition_: Prove F(0) or F(1) is true.
 > - _Induction Hypothesis_: Assume that F(K) is true
 > - _Induction_: Using F(K) prove that F(K+1) is true
+
+## BINARY SEARCH
+
+> This is a searching technique. There are two different searching techniques, namely,
+> 1. Linear search
+> 2. Binary search
 > 
+> Binary search follows `Divide and Conquer` strategy, where if the problem is large you break them into smaller subproblems.
+> Binary search works on a sorted list.
 > 
+> To perform binary search, we need two index pointers
+> 1. low(starting) point
+> 2. high(ending) point
+> 3. key i.e value to search for
+> 4. `midpoint = (low+high) / 2`
+>
+> **Algorithm**
+> 1. Check arr[mid] == value ---> if yes, then return else
+> 2. check if arr[mid] < value --> if yes, then the value if on the R.H.S,else
+> 3. value is on the L.H.S
+> 
+> Recalculate mid and repeat the process.
+> 
+> **Recursive Binary Search Algorithm**
+> 1. paramemters(low,high,key)
+> 2. if low == high then it's a single element
+> - Check if A[low] == key then return low
+> - else return 0
+> 3. else calculate mid and
+> - check if key == A[mid] and return mid;
+> - if key < A[mid] return BinarySearch(low,mid-1,key)
+> - else return BinarySearch(mid+1,high,key)
+>
+
+
