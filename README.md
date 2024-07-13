@@ -9,6 +9,9 @@
 
 2. [RECURSION](#recursion)
 3. [BINARY SEARCH](#binary-search)
+4. [SORTING](#sorting)
+- [BUBBLE SORT](#bubble-sort)
+- [INSERTION SORT](#insertion-sort)
 
 ## ANALYSIS OF ALGORITHM
 
@@ -87,7 +90,7 @@
 > Recalculate mid and repeat the process.
 > 
 > **Recursive Binary Search Algorithm**
-> 1. paramemters(low,high,key)
+> 1. parameters(low,high,key)
 > 2. if low == high then it's a single element
 > - Check if A[low] == key then return low
 > - else return 0
@@ -95,6 +98,43 @@
 > - check if key == A[mid] and return mid;
 > - if key < A[mid] return BinarySearch(low,mid-1,key)
 > - else return BinarySearch(mid+1,high,key)
->
+
+## SORTING
+
+### BUBBLE SORT
+
+> The concept of bubble sort is to compare a pair of elements ever time and if the 
+> first element is greater than the 2nd, it will interchange.
+> 
+> For bubble sort, the goals is to get the heaviest elements to the bottom and the lightest upwards.
+> For some n elements, if you perform k passes you will get k largest element
+> 
+> In each pass(iteration), the heaviest element is sorted and moved to the bottom.
+> - The number of passes = n -1
+> - Number of comparation = n<sup>2</sup>
+> - Number of swaps = n<sup>2</sup>
+> 
+> Time complexity : O(n<sup>2</sup>)
+> 
+> _**Algo**_:
+> - A flag variable set to 0
+> - initiate 2 for loops, an outer loop (n - 1) and an inner loop(n-1-i)
+> - check if A[i] > A[j + 1] --> then swap(A[i],A[j+1])
+> - set flag = 1
+> - out of the inner loop, if flag = 0, then break
+
+### INSERTION SORT
+
+> For a sorted array, you want to insert an element at a sorted position.
+> 
+> Algo:
+> - init a for loop for innner and outer
+> - inner loop starts from index = 1, assuming the first is sorted
+> - store the current value of i into a temp variable
+> - while j >= 0 and arr[j] >temp
+> - set arr[j+1] = arr[j]
+> - set j = j - 1;
+> - out of the while loop arr[j + 1] = temp
+
 
 
